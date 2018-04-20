@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bigImage"
+            android:src="@drawable/fahim_big"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="BIG NAME"
+            android:id="@+id/bigName"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffb74944"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Description Text"
+            android:id="@+id/description"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="#ffa4a4a4" />
+
+    </LinearLayout>
+</ScrollView>
